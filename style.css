@@ -28,8 +28,41 @@ img{
 .cabeçalho{
     width: 100%;
     background-color: #1ebea5;
+    padding: 1.5% 1.5%;
+    float: left;
 }
 
+.logo{
+    width: 40px;
+    height: 40px;
+    background: url(/img/iconwa.png) center center/40px no-repeat;
+    font-size: 0;
+    float: left;
+}
+
+.div-logo-link{
+    float: left;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.div-logo-link a p{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 1em;
+}
+
+.btn-menu{
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*MENU*/
 .menu{
     display: none;
 }
