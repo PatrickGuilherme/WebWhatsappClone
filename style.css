@@ -65,4 +65,32 @@ img{
 /*MENU*/
 .menu{
     display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 3% 3%;
+    background-color: #1ebea5;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+}
+
+.menu li{
+    padding: 4%;
+}
+
+.menu li a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-close{
+    color: #fff;
+    font-size: 1.5em;
+    float: right;
+    cursor: pointer;
 }

@@ -22,6 +22,9 @@
             <i class="fas fa-bars fa-lg"></i>
         </button>
         <nav class="menu">
+            <a href="#"><h1 class="logo">Whatsapp Web</h1></a>
+
+            <a class="btn-close"><i class="fa fa-times"></i></a>
             <ul>
                 <li><a href="#">Whatsapp Web</a></li>
                 <li><a href="#">Recursos</a></li>
@@ -36,10 +39,20 @@
 
     </main>
     <session>
-
+        
     </session>
     <footer>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        }
+        );
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
 </body>
 </html>
