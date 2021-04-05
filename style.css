@@ -26,8 +26,9 @@ img{
 /*CABEÇALHO*/
 
 .cabeçalho{
+    position: fixed;
     width: 100%;
-    background-color: #1ebea5;
+    background-color: #1ebea6ed;
     padding: 1.5% 1.5%;
     float: left;
 }
@@ -93,4 +94,45 @@ img{
     font-size: 1.5em;
     float: right;
     cursor: pointer;
+}
+
+/*MAIN*/
+main{
+    width: 100%;
+    float: left;
+}
+
+.artigo{
+    background-color: #edf8f5;
+    padding-bottom: 10%;
+    padding-top: 20%;    
+}
+
+.artigo h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.linkDownload{
+    background-color: #01e675;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.infoSmartphone{
+    width: 100%;
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.infoSmartphone p{
+    padding-top: 10%;
+}
+
+.infoSmartphone a{
+     color:#39b3ed;
 }
