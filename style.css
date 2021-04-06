@@ -81,7 +81,7 @@ img{
 }
 
 .menu li{
-    padding: 4%;
+    padding: 2%;
 }
 
 .menu li a{
@@ -113,6 +113,9 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    background-color: #fff;
 }
 
 .artigo{
@@ -176,4 +179,41 @@ main{
 
 .txt-descricao a{
     color:#39b3ed;
+}
+
+.rodape{
+    width: 100%;
+    background-color:  #273443;
+    color: rgba(255, 255, 255, .6);
+}
+
+.top-rodape{
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.top-rodape ul{
+    padding: 10px;
+}
+
+
+.top-rodape ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom-footer{
+    background-color: #232f3c;
+    padding: 3%;
+}
+
+.bottom-footer p{
+    margin-top: 10px;
+}
+
+.bottom-footer p a{
+    text-decoration: none;
+    color:#fff;
 }
